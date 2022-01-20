@@ -15,14 +15,14 @@ Installation steps:
 4)install SQL Management Studio 18 English
 
 Unpack archive and copy to C:\
-Run the installer C:\Addon_IBM_zSystems_v1\Install\Addon_for_IBM_PM.exe and follow the instructions.
+Run the installer C:\Addon_IBM_RMFPM_v1\Install\Addon_for_IBM_PM.exe and follow the instructions.
 
 
 After install:
-http://hostname:8803 – web resource for working with the service for collecting data from the RMF portal. 
-http://hostname:8805 – web resource for multi-user work with the received data
+http://hostname:8803 â€“ web resource for working with the service for collecting data from the RMF portal. 
+http://hostname:8805 â€“ web resource for multi-user work with the received data
 
-User Access: Allowed to login for users added to the “Administrators” group:
+User Access: Allowed to login for users added to the â€œAdministratorsâ€ group:
       C:\Addon_IBM_RMFPM_v1\Addon_IBM_RMFPM_v1_WA_DataCollectionRMF_after_pub\Web.config ->
                                                                     <system.web>
                                                                     <authorization>
